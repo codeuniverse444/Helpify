@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <div className='main'>
       <div className="nav">
-        <p>Gemini</p>
+        <p>Helpify</p>
         <img src={assets.user_icon} alt="" />
       </div>
       <div className="main-container">
@@ -18,7 +18,7 @@ const Main = () => {
         {!showResult
         ?<>
            <div className="greet">
-            <p><span>Hello, Dev.</span></p>
+            <p><span>Hello, Developers.</span></p>
             <p>How can I help you Today?</p>
            </div>
            <div className="cards">
@@ -71,7 +71,7 @@ const Main = () => {
             </div>
             </div>
             <p className="bottom-info">
-                Gemini may display info, including about people, so double-check its response. Your privacy and Gemini Apps
+                Helpify may display info, including about people, so double-check its response. Your privacy and Helpify Apps
             </p>
         </div>
       </div>
